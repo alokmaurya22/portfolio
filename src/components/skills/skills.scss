@@ -1,0 +1,99 @@
+.skills {
+    margin-top: 3rem;
+
+    .wrapper {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+
+        .cont {
+            display: flex;
+            justify-content: space-between;
+
+            .wrap {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .heading {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 2.5rem;
+
+                    @media (max-width: 900px) {
+                        font-size: 2rem;
+                    }
+
+                    @media (max-width: 600px) {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .lists {
+                    margin-top: 2rem;
+                    display: flex;
+                    gap: 2rem;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    padding-block: 1rem;
+                    overflow: hidden;
+
+                    .skillcard {
+                        display: flex;
+                        align-items: center;
+                        gap: 0.5rem;
+                        padding: 0.5rem 1rem;
+                        border-radius: 5px;
+                        background-color: #caa6f7;
+                        color: #333;
+                        box-shadow: 10px 8px 0px rgb(191 219 254);
+
+                        i {
+                            font-size: 1.2rem;
+
+                            @media (max-width: 900px) {
+                                font-size: 1rem;
+                            }
+
+                            @media (max-width: 600px) {
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+
+                    @media (max-width: 900px) {
+                        gap: 1.5rem;
+                    }
+
+                    @media (max-width: 600px) {
+                        gap: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .texthead {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 30px;
+        opacity: 0.1;
+        letter-spacing: 1rem;
+
+        @media (max-width: 900px) {
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 1.25rem;
+        }
+    }
+
+    @media (max-width: 1150px) {
+        .wrapper {
+            width: 95%;
+        }
+    }
+}

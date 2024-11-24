@@ -1,0 +1,215 @@
+.about {
+    margin-top: 2rem;
+
+    .wrapper {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        height: 50vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .leftside {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex: 1;
+
+            .heading {
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                font-size: 30px;
+                opacity: 0.1;
+                letter-spacing: 1rem;
+
+                @media (max-width: 900px) {
+                    font-size: 1.5rem;
+                }
+
+                @media (max-width: 600px) {
+                    font-size: 1.25rem;
+                }
+            }
+
+            .imgcont {
+                width: 150px;
+                height: 150px;
+                border-radius: 10px;
+
+                img {
+                    border-radius: inherit;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+                }
+
+                @media (max-width: 900px) {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                @media (max-width: 600px) {
+                  
+                }
+            }
+
+            .textside {
+                /* Any additional styles for text side */
+            }
+        }
+
+        .rightside {
+            flex: 2;
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+
+            .top {
+                font-family: Arial, sans-serif !important;
+                margin-bottom: 2rem;
+                font-size: 2rem;
+                display: flex;
+                justify-content: center;
+                color: #fdbd6e;
+
+                @media (max-width: 900px) {
+                    font-size: 1.5rem;
+                }
+
+                @media (max-width: 600px) {
+                    font-size: 1.25rem;
+                }
+            }
+
+            .bottom {
+                text-align: justify;
+            }
+
+            @media (max-width: 900px) {
+                font-size: 1rem;
+                line-height: 1.2rem;
+            }
+
+            @media (max-width: 600px) {
+                font-size: 0.9rem;
+                line-height: 1.1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1120px) {
+    .about{
+        .wrapper{
+            max-width: 950px;
+        }
+    }
+    
+}
+
+@media (max-width: 1015px) {
+    .about{
+        .wrapper{
+            max-width: 850px;
+        }
+    }
+    
+}
+
+@media (max-width: 950px) {
+    .about{
+        .wrapper{
+            max-width: 800px;
+        }
+    }
+    
+}
+
+@media (max-width: 860px) {
+    .about{
+        .wrapper{
+            max-width: 700px;
+        }
+    }
+    
+}
+
+@media (max-width: 730px) {
+    .about{
+        .wrapper{
+            max-width: 600px;
+        }
+    }
+    
+}
+
+@media (max-width: 650px) {
+    .about{
+        .wrapper{
+            max-width: 500px;
+            gap:2rem;
+        }
+    }
+    
+}
+
+@media (max-width: 535px) {
+    .about{
+        .wrapper{
+            max-width: 450px;
+            .leftside{
+                .heading{
+                    display: none;
+                }
+                
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .about{
+        .wrapper{
+            max-width: 400px;
+            gap:2rem;
+            .leftside{
+                .heading{
+                    display: none;
+                }
+            }
+        }
+    }
+    
+}
+
+
+@media (max-width: 448px) {
+    .about{
+        .wrapper{
+            max-width: 350px;
+            gap:1rem;
+        }
+    }
+    
+}
+@media (max-width: 380px) {
+    .about{
+        // min-height: 0;
+        .wrapper{
+            height: fit-content;
+            margin-bottom: 1rem;
+          flex-direction: column;
+          .rightside{
+            .bottom{
+                padding-inline: 0.5rem;
+            }
+          }
+        }
+    }
+    
+}
+

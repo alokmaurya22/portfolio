@@ -1,0 +1,143 @@
+.projects {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    padding-bottom:2rem!important;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+
+        .wrap {
+            width: 100%;
+
+            .heading {
+                display: flex;
+                justify-content: center;
+                font-size: 2.5rem;
+                margin-bottom: 2rem;
+
+                @media (max-width: 1150px) {
+                    font-size: 2rem;
+                }
+
+                @media (max-width: 900px) {
+                    font-size: 1.75rem;
+                }
+
+                @media (max-width: 600px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .lists {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between; // Adjusted for 2-column layout
+                gap: 3rem;
+                padding-top: 1rem;
+
+                @media (max-width: 1150px) {
+                    justify-content: center; // Center items for single column layout
+                    gap: 2.5rem;
+                }
+
+                @media (max-width: 900px) {
+                    gap: 2rem;
+                }
+
+                @media (max-width: 600px) {
+                    gap: 1.5rem;
+                }
+
+                .projectcard {
+                    width: 45%; // Adjusted for 2-column layout
+                    box-shadow: -10px -8px 0px rgb(167 243 208);
+                    padding: 1rem;
+                    border: 1px solid aliceblue;
+                    border-radius: 10px;
+
+                    @media (max-width: 1150px) {
+                        width: 100%; 
+                    }
+
+                    .top {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-size: 1.2rem;
+                        .leftside{
+                            color:#caa6f7;
+                        }
+                        .rightside {
+                            display: flex;
+                            gap: 1rem;
+                            // color:#FDBD6E; //work on this
+                        }
+                    }
+
+                    .middle {
+                        padding-block: 1.5rem;
+                        
+                        .pheading {
+                            color:#b3dcf2;
+                            font-size: 1.7rem;
+
+                            @media (max-width: 900px) {
+                                font-size: 1.5rem;
+                            }
+                        }
+
+                        .desc {
+                            font-size: 1.1rem;
+                            color:aliceblue;
+                        }
+                    }
+
+                    .bottom {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                        color:#bbf7d0;
+
+                        .img {
+                            font-size: 0.8rem;
+                            animation: rotate-animation 10s infinite linear;
+                            background-color: #caa6f7;
+                            color: #333;
+                            padding: 0.3rem;
+                            border-radius: 50%;
+                        }
+
+                        .techstack {
+                            display: flex;
+                            gap: 0.4rem;
+                            flex-wrap: wrap;
+                            position: relative;
+                            @media (max-width:339px) {
+                                font-size: 14px;
+                            }
+                            .dot {
+                                width: 6px;
+                                height: 6px;
+                                border-radius: 50%;
+                                background-color: aquamarine;
+                                position: relative;
+                                bottom: -10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .projects{
+        padding:0.5rem;
+    }
+    
+}

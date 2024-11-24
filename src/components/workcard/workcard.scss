@@ -1,0 +1,190 @@
+.workcard {
+    padding: 1rem 2rem;
+    box-shadow: 10px -8px 0px rgb(253, 230, 138);
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    border: 1px solid aliceblue;
+    padding: 1rem; /* Outer padding for general spacing */
+  
+    .top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      align-items: center;
+  
+      .leftcard {
+        font-size: 1.8rem;
+        color: #caa6f7;
+      }
+  
+      .rightcard {
+        color: #FDBD6E;
+        display: flex;
+        gap: 1rem;
+        font-size: 1.1rem;
+      }
+    }
+  
+    .middle {
+      .rolename {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+      }
+  
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        word-spacing: 0.2rem;
+        font-size: 1rem;
+        color: aliceblue;
+        margin-bottom: 1rem;
+      }
+    }
+  
+    .bottom {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+  
+      .img {
+        font-size: 0.8rem;
+        animation: rotate-animation 10s infinite linear;
+        background-color: #caa6f7;
+        color: #333;
+        padding: 0.3rem;
+        border-radius: 50%;
+      }
+  
+      .techstack {
+        color: #bbf7d0;
+      }
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .workcard {
+      width: 90%;
+      padding: 1rem 1.5rem;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .workcard {
+      width: 95%;
+      padding: 1rem;
+  
+      .top {
+        // flex-direction: column;
+        // align-items: flex-start;
+  
+        .leftcard {
+          font-size: 1.6rem;
+        }
+  
+        .rightcard {
+          font-size: 1rem;
+          gap: 0.5rem;
+        }
+      }
+  
+      .middle {
+        .rolename {
+          font-size: 1.2rem;
+        }
+  
+        ul {
+          font-size: 0.9rem;
+        }
+      }
+  
+      .bottom {
+        // flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+  
+        .img {
+          font-size: 0.7rem;
+          padding: 0.2rem;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .workcard {
+      width: 100%;
+      padding: 0.5rem;
+  
+      .top {
+         flex-direction: column;
+        align-items: flex-start;
+        .leftcard {
+          font-size: 1.4rem;
+        }
+  
+        .rightcard {
+          font-size: 0.9rem;
+        }
+      }
+  
+      .middle {
+        .rolename {
+          font-size: 1.1rem;
+        }
+  
+        ul {
+          font-size: 0.8rem;
+        }
+      }
+  
+      .bottom {
+        .img {
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .workcard {
+      padding: 0.5rem;
+      .top {
+        .leftcard {
+          font-size: 1.2rem;
+        }
+  
+        .rightcard {
+          font-size: 0.8rem;
+        }
+      }
+  
+      .middle {
+        .rolename {
+          font-size: 1rem;
+        }
+  
+        ul {
+          font-size: 0.7rem;
+        }
+      }
+  
+      .bottom {
+        .img {
+          font-size: 0.5rem;
+          padding: 0.1rem;
+        }
+      }
+    }
+  }
+  
+  @keyframes rotate-animation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
