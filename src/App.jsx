@@ -10,33 +10,35 @@ const App = () => {
   return (
     <div>
       <section id="home" className='homesection'>
-        <Hero/>
+        <Hero />
       </section>
       <hr />
       <section id="about" className='aboutsection'>
-        <About/>
+        <About />
       </section>
       <hr />
       <section id="skills" className='skilssection'>
-        <Skills/>
+        <Skills />
         {/* <SkillTree/> */}
       </section>
-      <hr />
+      <hr id="worksection1" />
+      <br></br>
 
       <section id="worksection" className='worksection'>
-        <Works/>
+        <Works />
       </section>
-      <hr />
+      <hr id="projectsection1" />
+      <br></br>
 
       <section id="projectsection" className='projectsection'>
-        <Projects/>
+        <Projects />
       </section>
 
-      
+
       <hr />
 
       <section id="contact" className='contectsection'>
-        <Contact/>
+        <Contact />
       </section>
     </div>
   )

@@ -56,7 +56,7 @@ const Hero = () => {
   };
 
   const handleCopy = () => {
-    const textToCopy = 'npx shubhamc1947';
+    const textToCopy = 'npx alokmaurya22';
 
     navigator.clipboard.writeText(textToCopy).then(() => {
       console.log('Text copied to clipboard');
@@ -108,26 +108,6 @@ const Hero = () => {
                 );
               })}
             </motion.div>
-            <motion.div className="btn">
-              <button
-                data-tooltip-id="npx"
-                data-tooltip-content="npx alokmaurya22"
-                onClick={handleCopy}
-              >
-                npx alokmaurya22
-              </button>
-              <Tooltip id="npx" className="tooltipcustom" />
-            </motion.div>
-            {showMessage && (
-              <motion.div
-                className="copy-message"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <p style={{ fontSize: "0.8rem" }}>Text copied to clipboard! <br />Make sure to run this in your terminal.</p>
-              </motion.div>
-            )}
           </motion.div>
           <motion.div className="rightside" variants={rightvarients} initial="initial" animate="animate">
             <motion.div className="imgcont">

@@ -10,13 +10,16 @@ const skillsdata = [
   { name: "SpringBoot", icon: "fa-solid fa-leaf" },
   { name: "MySQL", icon: "fa-solid fa-database" },
   { name: "PHP", icon: "fa-brands fa-php" },
-  { name: "Appwrite", icon: "./icons/appwrite.png" },
+  { name: "Python", icon: "fa-brands fa-python" },
+  { name: "Appwrite", icon: "fas fa-database text-pink-500" },
+  { name: "Firebase", icon: "fas fa-fire text-yellow-400" },
   { name: "Framer Motion", icon: "fa-solid fa-film" },
   { name: "Redux Toolkit", icon: "fas fa-toolbox" },
   { name: "Bash", icon: "fas fa-terminal" },
   { name: "Git", icon: "fa-brands fa-git" },
   { name: "Many More", icon: "fa-solid fa-arrow-up-right-dots" },
 ];
+
 
 
 const Skills = () => {

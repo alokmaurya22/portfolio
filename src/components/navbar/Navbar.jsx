@@ -1,8 +1,8 @@
 import React from "react";
 import "./navbar.scss";
-import { Tooltip } from 'react-tooltip'
+import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const variants = {
@@ -15,22 +15,42 @@ const Navbar = () => {
       opacity: 1,
       transition: {
         type: "spring",
-        stiffness: 100
+        stiffness: 100,
       },
     },
   };
+
   return (
     <motion.div className="navbar">
-      <motion.div className="wrapper" >
-        <motion.div className="navlists" variants={variants}
+      <motion.div className="wrapper">
+        <motion.div
+          className="navlists"
+          variants={variants}
           initial="initial"
-          animate="animate" >
-          <motion.div className="list"><a href="#home">HOME</a></motion.div>
-          <motion.div className="list"><a href="#worksection">EXPERIENCE</a></motion.div>
-          <motion.div className="list"><a href="#projectsection">PROJECT</a></motion.div>
+          animate="animate"
+        >
+          <motion.div className="list">
+            <a href="#home">HOME</a>
+          </motion.div>
+          <motion.div className="list ">
+            <a href="#worksection1">EXPERIENCE</a>
+          </motion.div>
+          <motion.div className="list">
+            <a href="#projectsection1">PROJECT</a>
+          </motion.div>
         </motion.div>
-        <motion.div className="cvwrap" data-tooltip-id="cv" data-tooltip-content="Download Resume">
-          <a href="https://drive.google.com/file/d/19t5i3CNo0IPyoTMkDDmSzg6dwUtKIZLF/view?usp=drive_link" target="_blank"><b>CV</b></a>
+        <motion.div
+          className="cvwrap"
+          data-tooltip-id="CV"
+          data-tooltip-content="Download Resume"
+        >
+          <a
+            href="https://drive.google.com/file/d/11gJ9GwFc75BovQ-x3MPfypcpPrj5u0hH/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <b>CV</b>
+          </a>
         </motion.div>
       </motion.div>
       <Tooltip id="cv" className="tooltipcustom" />
