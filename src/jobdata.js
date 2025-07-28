@@ -2,28 +2,28 @@ export const jobsData = [
   {
     id: "1",
     companyName: "Weknow Technology.",
-    roleName: "Software Engineer Intern",
+    roleName: "Software Developer",
     workExperience: [
-      "• Automated the admissions process and library operations in the college ERP system using PHP and MySQL, eliminating 100% of manual tasks and enhancing accessibility.",
-      "• Engineered a comprehensive exam module for 14,000+ students, boosting accuracy and reducing manual effort by 90%.",
-      "• Optimitized backend, reducing response time by 100ms and enhancing flexibility for future modifications. Integrated Payment Gateway of CCAvenue in Knipss project, streamlining payment processes and enhancing user convenience."
+      "• Engineered a streamlined digital solution for KNI Online admissions, cutting down processing time by 66% and creating a better experience for applicants, which was praised by new student orientation leaders.",
+      "• Developed and maintain the Library and Exam module in KNIPSS ERP, which automated exam scheduling and grading, and eliminated all manual paperwork in the library management for over 14000+ students.",
+      "• Made the exam process more accurate and much faster, cutting down the time needed by 90%. Also took care of fixing problems, adding new features, and making sure the system ran smoothly"
     ],
     techStack: "Javascript, ReactJS, PHP, MySQL, RESTful API, Ajax, JQuery ",
-    jobType: "Office Faizabad",
-    jobDuration: "Apr 2023 - Feb 2024",
+    jobType: "In Office Faizabad",
+    jobDuration: "Jan 2023 - Feb 2024",
     specialNote: "Work Culture and bonds with the management is really great here..."
   },
   {
     id: "2",
     companyName: "Weknow Technology.",
-    roleName: "Software Engineer Trainee",
+    roleName: "Web Developer Trainee",
     workExperience: [
-      "• Collaborated on updates and bug fixes for SaaS-based hotel management software and school management software, improving system performance for 40+ organizations.",
+      "•  Enhanced application reliability by SaaS application upgrades, resolving high-priority bugs for 40+ enterprise clients, improving uptime and user satisfaction.",
       "• Contributed to developing and testing survey software for 13,000+ societies, defining testing roles and training societies for smooth implementation."
     ],
     techStack: "HTML5, CSS3, Bootstrap, Javascript, PHP, Mysql, Ajax, JQuery ",
-    jobType: "",
-    jobDuration: "Jan 2023 - March 2023",
+    jobType: "In Office Faizabad",
+    jobDuration: "Oct 2022 - Jan 2023",
     specialNote: "They teach like a pro. And they have a great knowledge of their work and tech."
   },
 ];

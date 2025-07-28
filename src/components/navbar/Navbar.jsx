@@ -45,7 +45,7 @@ const Navbar = () => {
           data-tooltip-content="Download Resume"
         >
           <a
-            href="https://drive.google.com/file/d/11gJ9GwFc75BovQ-x3MPfypcpPrj5u0hH/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1GAwQjd4x0nl9cdd7G1tqG_hOCQhJrqn1/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
