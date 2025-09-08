@@ -27,7 +27,7 @@ const projectData = [
   {
     "name": "Restro Sathi",
     "github": "https://github.com/alokmaurya22/RestroSathi",
-    "live": "https://restro-sathi.cooo.in",
+    "live": "https://restrosathi.ct.ws",
     "projectName": "Restro Sathi",
     "projectTitle": "Restro Sathi: Restaurant Table Booking System",
     "desc": " Developed a Restaurant Table Booking System, reducing time loss by 90% for customers and managers while streamlining reservations Delivered an intuitive interface to enhance user experience and improve table management efficiency.",
