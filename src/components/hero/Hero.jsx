@@ -111,7 +111,7 @@ const Hero = () => {
           </motion.div>
           <motion.div className="rightside" variants={rightvarients} initial="initial" animate="animate">
             <motion.div className="imgcont">
-              <motion.img variants={imgvar} src="./hero3.jpg" alt="" />
+              <motion.img variants={imgvar} src="./hero5.png" alt="" />
             </motion.div>
           </motion.div>
         </motion.div>
